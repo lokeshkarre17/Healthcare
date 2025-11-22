@@ -1,11 +1,10 @@
-fastapi
-uvicorn[standard]
-pydantic
-sqlalchemy
-python-multipart
-numpy
-deepface
-tf-keras
-opencv-python-headless
-pytest
-httpx
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+sqlalchemy==2.0.23
+python-multipart==0.0.6
+
+# Basic AI packages (compatible)
+numpy==1.24.3
+pandas==2.1.4
+Pillow==10.1.0
